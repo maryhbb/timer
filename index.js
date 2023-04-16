@@ -32,3 +32,9 @@ function updateTimer() {
   function stopTimer() {
     clearInterval(interval);
   }
+
+  function resetTimer() {
+    clearInterval(interval);
+    timeLeft = 1500;
+    updateTimer();
+  }
