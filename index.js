@@ -4,7 +4,7 @@ const resetEl = document.getElementById("reset");
 const timerEl = document.getElementById("timer");
 
 let interval;
-let timeLeft = 1500;
+let timeLeft = 1000;
 
 function updateTimer() {
   let minutes = Math.floor(timeLeft / 60);
@@ -35,7 +35,7 @@ function stopTimer() {
 
 function resetTimer() {
   clearInterval(interval);
-  timeLeft = 1500;
+  timeLeft = 1000;
   updateTimer();
 }
 
