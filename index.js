@@ -38,3 +38,7 @@ function updateTimer() {
     timeLeft = 1500;
     updateTimer();
   }
+
+  startEl.addEventListener("click", startTimer);
+stopEl.addEventListener("click", stopTimer);
+resetEl.addEventListener("click", resetTimer);
