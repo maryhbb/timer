@@ -1,7 +1,11 @@
-# timer
+# Timer
 
 
 ![](https://github.com/maryhbb/timer/actions/workflows/workflow.yml/badge.svg)
+
+
+![](https://github.com/maryhbb/Digital-Clock/actions/workflows/workflow.yml/badge.svg)
+
 
 
 ## Demo
