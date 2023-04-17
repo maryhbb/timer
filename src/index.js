@@ -1,3 +1,6 @@
+import css from "./style.css";
+
+
 const startEl = document.getElementById("start");
 const stopEl = document.getElementById("stop");
 const resetEl = document.getElementById("reset");
