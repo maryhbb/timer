@@ -47,6 +47,7 @@ function resetTimer() {
   clearInterval(interval);
   timeLeft = 1500;
   updateTimer();
+  timerStarted = false;
 }
 
 startEl.addEventListener("click", startTimer);
